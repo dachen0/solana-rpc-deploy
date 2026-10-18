@@ -41,7 +41,7 @@ cd /solana
 git clone https://github.com/anza-xyz/agave
 
 # install solana cli tools
-sh -c "$(curl -sSfL https://release.anza.xyz/v2.2.3/install)"
+sh -c "$(curl -sSfL https://release.anza.xyz/v4.4.0-beta.1/install)"
 PATH="/root/.local/share/solana/install/active_release/bin:$PATH"
 
 # generate validator identity
