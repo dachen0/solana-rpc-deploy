@@ -2,7 +2,7 @@
 
 # args: $AGAVE_VERSION
 no_rpc="n"
-if [ "$#" -ne 2 ]; then
+if [ "$#" -ne 1 ]; then
     echo "Not enough params: run this script with the following args: AGAVE_VERSION"
     echo "If you only want to install non rpc components, enter y:"
     read no_rpc
