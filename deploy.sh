@@ -52,6 +52,7 @@ if [ "$no_rpc" != "y" ]; then
     sudo apt-get install nginx
     # probably not the best way but it works!
     sudo cp nginx-reverse-proxy /etc/nginx/sites-enabled/default
+    sudo sed -i s/RPC_X_TOKEN/$rpc_x_token/g /etc/nginx/sites-enabled/default
 
     # build validator and yellowstone plugin
     bash build-validator.sh $1
