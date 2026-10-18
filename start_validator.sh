@@ -19,13 +19,4 @@ exec /solana/agave/target/release/agave-validator\
         --snapshots /solana/snapshots\
         --full-rpc-api\
         --private-rpc\
-        --maximum-local-snapshot-age 2500\
-        --rpc-send-default-max-retries 0\
-        --rpc-send-leader-count 2\
-        --minimal-snapshot-download-speed 50000000\
-        --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6\
-        --account-index-exclude-key TokenkegQfeZyiNwAJbNbGKPFXCWuBvf9Ss623VQ5DA\
-        --account-index-exclude-key TokenzQdBNbLqP5VEhdkAS6EPFLC1PHnBqCXEpPxuEb\
-        --full-snapshot-interval-slots 25000\
-        --incremental-snapshot-interval-slots 1000\
-        --geyser-plugin-config /solana/yellowstone-grpc/yellowstone-grpc-geyser/config.json
+        --account-index-exclude-key kinXdEcpDQeHPEuQnqmUgtYykqKGVFq6CeVX5iAHJq6

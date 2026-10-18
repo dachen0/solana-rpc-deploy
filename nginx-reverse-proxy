@@ -14,10 +14,4 @@ server {
                 proxy_read_timeout          300;
                 send_timeout                300;
         }
-
-        location /JUPITER_X_TOKEN {
-                rewrite /JUPITER_X_TOKEN/(.*) /$1 break;
-                proxy_pass http://localhost:8080;
-                proxy_redirect off;
-        }
 }
